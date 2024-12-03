@@ -1,7 +1,7 @@
 {
   "development": {
     "use_env_variable": "DATABASE_URL",
-    "url": "postgresql://postgres.pqomscjunnbnpmushspv:F5qAWsRUKyCkaeQB@aws-0-eu-central-1.pooler.supabase.com:6543/postgres",
+    "url": "postgresql://postgres.:F5qAWsRUKyCkaeQB@aws-0-eu-central-1.pooler:6543/postgres",
     "dialect": "postgres",
     "logging": false,
     "pool": {
@@ -13,7 +13,7 @@
   },
   "test": {
     "use_env_variable": "DATABASE_URL",
-    "url": "postgresql://postgres.pqomscjunnbnpmushspv:F5qAWsRUKyCkaeQB@aws-0-eu-central-1.pooler.supabase.com:6543/postgres",
+    "url": "postgresql://postgres.:F5qAWsRUKyCkaeQB@aws-0-eu-central-1.pooler:6543/postgres",
     "dialect": "postgres",
     "logging": false,
     "pool": {
@@ -25,7 +25,7 @@
   },
   "production": {
     "use_env_variable": "DATABASE_URL",
-    "url": "postgresql://postgres.pqomscjunnbnpmushspv:F5qAWsRUKyCkaeQB@aws-0-eu-central-1.pooler.supabase.com:6543/postgres",
+    "url": "postgresql://postgres.:F5qAWsRUKyCkaeQB@aws-0-eu-central-1.pooler:6543/postgres",
     "dialect": "postgres",
     "logging": false,
     "pool": {
